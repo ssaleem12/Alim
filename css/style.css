@@ -1,0 +1,178 @@
+/**{
+	background-color: #D3D3D3;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	width:100%;
+}*/
+
+body{
+	background-color: #008fb3;
+	margin: 0;
+	width: 100%;
+}
+
+/*For Heading content*/
+.image-container{
+	background-image: url(../images/chicago.jpg);
+	height: 500px;
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.inner-container{
+	color: #bfbfbf;
+	font-family: 'Charm', cursive;
+	text-align: center;
+	width: 100%;
+}
+
+/*Provides link styling*/
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.nav-links li{
+	list-style: none;
+	padding: 12px;
+}
+
+.nav-links a:hover{
+	color: red;
+	transition: .5s;
+}
+.nav-links a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+/*About me styling */
+.aboutme{
+	margin: 1;
+	width: 100%;
+	background-color: #bfbfbf;
+}
+
+.profile{
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin:0 auto 0 auto;
+}
+
+.info{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	font-family: 'Courier Prime', monospace;
+}
+
+#title_course{
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+.coursework td{
+	color: white;
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Courier Prime', monospace;
+}
+
+
+.title_project{
+	display: block;
+	text-align: center;
+	color: black;
+	background-color: #bfbfbf;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+}
+
+.proj{
+	width: 50%;
+}
+
+.projects{
+	background-color: #bfbfbf;
+	display: flex;
+	height: 400px;
+}
+
+.project_img{
+	margin-left: 70px;
+	height: 150px;
+	width: 150px;
+}
+
+.project-header{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-family: 'Barlow Condensed';
+	font-weight: 2px;
+}
+
+.proj-info{
+	text-align: center;
+	font-family: 'Courier Prime', monospace;
+}
+
+.media{
+	position: absolute;
+	left: 50%;
+	transform: translate(-53%, -50%);
+}
+
+.contactme li{
+	list-style: none;
+	margin: 10px 20px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 10px;
+	color: purple;
+	border: 1px solid purple;
+	border-radius: 30%;
+	transition: .5s;
+}
+
+.contactme li:hover{
+	color: red;
+	border: 1px solid red;
+	transition: .5s;
+}
+
+
+.title_contact{
+	display: block;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+}
+
+#info_contact{
+	text-align: center;
+	font-family: 'Courier Prime', monospace;
+}
+
+
+
